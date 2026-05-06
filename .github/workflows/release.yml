@@ -53,8 +53,6 @@ jobs:
 
       - name: Publish
         run: pnpm publish -r --access public --no-git-checks --provenance
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Create GitHub Release
         if: github.event_name == 'push'

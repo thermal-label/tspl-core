@@ -3,6 +3,11 @@
 > Pure TSPL II protocol encoder. Directive byte builders + a status
 > line splitter, anchored on **TSC's TSPL II Programming Manual**.
 
+[![CI](https://github.com/thermal-label/tspl-core/actions/workflows/ci.yml/badge.svg)](https://github.com/thermal-label/tspl-core/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/thermal-label/tspl-core/branch/main/graph/badge.svg)](https://codecov.io/gh/thermal-label/tspl-core)
+[![npm core](https://img.shields.io/npm/v/@thermal-label/tspl-core.svg?label=core)](https://npmjs.com/package/@thermal-label/tspl-core)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A single-package TypeScript library that produces TSPL II wire-byte
 streams for any TSPL-speaking thermal label printer. Has no
 transports, no device registry, no vendor extensions — just the
